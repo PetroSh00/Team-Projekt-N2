@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ice Cream</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IceCream</title>
+    <!-- normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <!-- fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
@@ -14,10 +19,9 @@
       rel="stylesheet"
     />
     <!-- styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
-</head>
-<body>
-    <!-- =========== LOCATIONS =========== -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <section class="locations">
       <div class="container">
         <ul class="locations__list">
@@ -40,8 +44,14 @@
             <hr class="locations__divider" />
 
             <address class="locations__contact">
-              <a class="locations__contact-tel" href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a>
-              <a class="locations__contact-mail" href="mailto:noreply@envato.com">noreply@envato.com</a>
+              <a class="locations__contact-tel" href="tel:+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+              <a
+                class="locations__contact-mail"
+                href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
             </address>
           </li>
 
@@ -64,8 +74,14 @@
             <hr class="locations__divider" />
 
             <address class="locations__contact">
-              <a class="locations__contact-tel" href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a>
-              <a class="locations__contact-mail" href="mailto:noreply@envato.com">noreply@envato.com</a>
+              <a class="locations__contact-tel" href="tel:+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+              <a
+                class="locations__contact-mail"
+                href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
             </address>
           </li>
 
@@ -88,19 +104,24 @@
             <hr class="locations__divider" />
 
             <address class="locations__contact">
-              <a class="locations__contact-tel" href="tel:+61(0) 383 766 284">+61(0) 383 766 284</a>
-              <a class="locations__contact-mail" href="mailto:noreply@envato.com">noreply@envato.com</a>
+              <a class="locations__contact-tel" href="tel:+61(0) 383 766 284"
+                >+61(0) 383 766 284</a
+              >
+              <a
+                class="locations__contact-mail"
+                href="mailto:noreply@envato.com"
+                >noreply@envato.com</a
+              >
             </address>
           </li>
         </ul>
-
-        <nav class="locations__buttons">
+        <div class="locations__buttons">
           <button class="button button--main">Our Locations ></button>
           <button class="button button--outline">Franchise ></button>
-        </nav>
+        </div>
       </div>
     </section>
- <!-- =========== FOOTER =========== -->
+
     <footer class="passion">
       <div class="container">
         <div class="passion__top">
@@ -111,18 +132,30 @@
 
           <div class="passion__right">
             <ul class="passion__social">
-              <li><a href="GitHub" class="passion__social-link">
-                <svg class="passion__social-icon">
-                <use href="./img/symbol-defs.svg#icon-github"></use>
-              </svg></a></li>
-              <li><a href="Telegram" class="passion__social-link">
-                <svg class="passion__social-icon">
-                <use href="./img/symbol-defs.svg#icon-telegram"></use>
-              </svg></a></li>
-              <li><a href="Facebook" class="passion__social-link">
-                <svg class="passion__social-icon">
-                <use href="./img/symbol-defs.svg#icon-facebook"></use>
-              </svg></a></li>
+              <li>
+                <a href="https://github.com/" class="passion__social-link">
+                  <svg class="passion__social-icon">
+                    <use href="./img/symbol-defs.svg#icon-github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://web.telegram.org" class="passion__social-link">
+                  <svg class="passion__social-icon">
+                    <use href="./img/symbol-defs.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/"
+                  class="passion__social-link"
+                >
+                  <svg class="passion__social-icon">
+                    <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
             </ul>
 
             <address class="passion__contact">
@@ -137,5 +170,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>
