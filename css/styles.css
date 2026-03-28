@@ -76,10 +76,12 @@ img {
 /* ================= HEADER ================= */
 
 .header {
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px 40px;
+  padding: 37px ;
+  z-index: 100;
 }
 
 .header__logo img {
@@ -119,7 +121,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px;
+  padding: 52px;
   position: relative;
 }
 
