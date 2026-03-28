@@ -1,7 +1,37 @@
 /* command styles */
+:root {
+  /* Base */
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  /* Gray */
+  --color-comment-bg: #fafafa;
+  --color-gray: #fff5f6;
+  --color-btn-hover-bg: #ecebeb;
+  --color-color-lines: #e1e1e1;
+  --color-dots: #d9d9d9;
+  --color-text-second: #907e82;
+  --color-text-primary: #000000;
+
+  /* Brand */
+  --color-primary: #d41443;
+  --color-primary-hover: #d41342;
+  --color-primary-accent: #c7133e;
+
+  /* Pink */
+  --color-secondary-title-color: #ffa5ba;
+  --color-bg-color: #ffb8ca;
+  --color-location-time-text: #fea5bb;
+
+  /* Product colors */
+  --color-cafe: #f0d1a5;
+  --color-food-truck: #c2e297;
+}
+
 body {
   font-family: "DM Sans", sans-serif;
   margin: 0;
+  color: var(--color-text-primary);
 }
 
 .container {
@@ -9,10 +39,11 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
 /* ============= LOCATION ============= */
 .locations,
 .passion {
-  background: #fff5f6;
+  background: var(--color-gray);
 }
 
 .locations {
@@ -34,7 +65,7 @@ body {
 .locations__card {
   max-width: 330px;
   flex-basis: calc((100% - 60px) / 3);
-  background: white;
+  background: var(--color-white);
   border-radius: 24px;
   padding: 40px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
@@ -50,11 +81,11 @@ body {
 }
 
 .locations__card--cafe .locations__badge {
-  background: #f0d1a5;
+  background: var(--color-cafe);
 }
 
 .locations__card--truck .locations__badge {
-  background: #c2e297;
+  background: var(--color-food-truck);
 }
 
 .locations__city {
@@ -63,7 +94,7 @@ body {
 }
 
 .locations__desc {
-  color: #777;
+  color: var(--color-text-second);
   font-size: 14px;
   margin-bottom: 20px;
   padding-bottom: 32px;
@@ -79,32 +110,32 @@ body {
 }
 
 .locations__schedule dd {
-  color: #ff4d6d;
+  color: var(--color-location-time-text);
   font-size: 14px;
   margin: 0 0 10px 0;
 }
 
 .locations__contact a {
-  color: #777;
+  color: var(--color-text-second);
   font-size: 14px;
   margin-top: 20px;
   list-style: none;
 }
 
 .locations__contact-tel {
-  color: #777;
+  color: var(--color-text-second);
   padding-right: 30px;
   font-weight: 500;
 }
 
 .locations__contact-mail {
-  color: #777;
+  color: var(--color-text-second);
   font-weight: 500;
 }
 
 .locations__divider {
   border: none;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--color-color-lines);
   margin: 20px 0;
   padding-bottom: 32px;
 }
@@ -127,24 +158,25 @@ body {
 }
 
 .button--main {
-  background: #d41443;
-  color: white;
+  background: var(--color-primary);
+  color: var(--color-white);
 }
 
 .button--main:hover {
-  background: #d41342;
-  box-shadow: #85132f 0px 0px 8px 2px;
+  background: var(--color-primary-hover);
+  box-shadow: var(--color-primary-accent) 0px 0px 8px 2px;
 }
 
 .button--outline {
-  background: white;
-  color: #d41443;
+  background: var(--color-white);
+  color: var(--color-primary);
 }
 
 .button--outline:hover {
-  background: #ecebeb;
-  box-shadow: #7f757b 0px 0px 8px 2px;
+  background: var(--color-btn-hover-bg);
+  box-shadow: var(--color-text-second) 0px 0px 8px 2px;
 }
+
 /* ============= PASSION ============= */
 .passion {
   padding: 80px 40px;
@@ -159,7 +191,7 @@ body {
 .passion__title {
   font-size: 58px;
   font-weight: 400;
-  color: #d41443;
+  color: var(--color-primary);
   line-height: 100%;
   font-family: "Titan One", sans-serif;
   margin: 0;
@@ -168,7 +200,7 @@ body {
 .passion__subtitle {
   display: block;
   font-size: 30px;
-  color: #ffa5ba;
+  color: var(--color-secondary-title-color);
   font-weight: 400;
   letter-spacing: 4%;
   margin-bottom: 10px;
@@ -196,19 +228,19 @@ body {
   align-items: center;
   justify-content: center;
 
-  background-color: #f4a3b5;
+  background-color: var(--color-secondary-title-color);
   border-radius: 50%;
 }
 
 .passion__social-link:hover {
-  background-color: #d41443;
-  box-shadow: #d41343 0px 0px 8px 2px;
+  background-color: var(--color-primary);
+  box-shadow: var(--color-primary) 0px 0px 8px 2px;
 }
 
 .passion__social-icon {
   width: 20px;
   height: 20px;
-  fill: white;
+  fill: var(--color-white);
 }
 
 .passion__contact {
@@ -217,20 +249,20 @@ body {
 }
 
 .passion__phone {
-  color: #d41443;
+  color: var(--color-primary);
   font-weight: 600;
 }
 
 .passion__copyright p {
   margin: 0;
   font-size: 14px;
-  color: #907e82;
+  color: var(--color-text-second);
 }
 
 .passion__copyright {
   margin-top: 60px;
   padding-top: 20px;
-  border-top: 1px solid #f0dede;
+  border-top: 1px solid var(--color-color-lines);
   text-align: center;
 }
 
@@ -263,7 +295,7 @@ body {
   }
 
   .passion__title {
-    font-weight: 48px;
+    font-size: 48px;
     width: 340px;
     height: 183px;
   }
@@ -299,7 +331,7 @@ body {
   }
 
   .passion__title {
-    font-weight: 34px;
+    font-size: 34px;
   }
 
   .passion__subtitle {
