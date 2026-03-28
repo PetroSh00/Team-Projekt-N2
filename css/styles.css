@@ -49,6 +49,13 @@ body {
   font-family: "DM Sans", sans-serif;
   background: #ffb8ca;
   color: #fff;
+  font-family: "DM Sans", sans-serif;
+    margin: 0;
+    color: var(--color-text-primary);
+}
+ul{
+  list-style: none;
+  padding: 0;
 }
 
 img {
@@ -78,7 +85,7 @@ img {
 .header__logo img {
   height: 40px;
 }
-y
+
 
 .header__list {
   display: flex;
