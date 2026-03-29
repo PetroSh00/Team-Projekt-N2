@@ -410,6 +410,7 @@ img {
     font-size: 14px;
   }
 } 
+/* ======================================= KIRA STYLES ======================================= */
 /* ============= LOCATION ============= */
 .fill {
   height: 200px;
@@ -417,7 +418,7 @@ img {
 
 .locations,
 .passion {
-  background: var(--color-gray);
+  background: var(--color-gray) 100% 0% no-repeat;
 }
 
 .locations {
