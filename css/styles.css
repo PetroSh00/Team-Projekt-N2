@@ -1,3 +1,4 @@
+/* command styles */
 :root {
   /* Base */
   --color-white: #ffffff;
@@ -49,7 +50,6 @@ body {
   font-family: "DM Sans", sans-serif;
   background: #ffb8ca;
   color: #fff;
-  font-family: "DM Sans", sans-serif;
     margin: 0;
     color: var(--color-text-primary);
 }
