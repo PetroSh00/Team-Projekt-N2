@@ -410,6 +410,151 @@ img {
     font-size: 14px;
   }
 } 
+/* ============= LOCATION ============= */
+.fill {
+  height: 200px;
+}
+
+.locations,
+.passion {
+  background: var(--color-gray);
+}
+
+.locations {
+  padding: 100px 0;
+  background-image: url(./img/dots-locations.png);
+  position: relative;
+  padding: 400px 100px 120px;
+}
+
+.locations__list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: -102px;
+}
+
+/* CARD */
+
+.locations__card {
+  max-width: 330px;
+  flex-basis: calc((100% - 60px) / 3);
+  background: var(--color-white);
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.locations__badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.locations__card--cafe .locations__badge {
+  background: var(--color-cafe);
+}
+
+.locations__card--truck .locations__badge {
+  background: var(--color-food-truck);
+}
+
+.locations__city {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.locations__desc {
+  color: var(--color-text-second);
+  font-size: 14px;
+  margin-bottom: 20px;
+  padding-bottom: 32px;
+}
+
+.locations__schedule {
+  margin: 10px 0;
+  padding-bottom: 32px;
+}
+
+.locations__schedule dt {
+  font-weight: 600;
+}
+
+.locations__schedule dd {
+  color: var(--color-location-time-text);
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.locations__contact a {
+  color: var(--color-text-second);
+  font-size: 14px;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.locations__contact-tel {
+  color: var(--color-text-second);
+  padding-right: 30px;
+  font-weight: 500;
+}
+
+.locations__contact-mail {
+  color: var(--color-text-second);
+  font-weight: 500;
+}
+
+.locations__divider {
+  border: none;
+  border-top: 1px solid var(--color-color-lines);
+  margin: 20px 0;
+  padding-bottom: 32px;
+}
+
+/* BUTTONS */
+.locations__buttons {
+  padding-top: 86px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.button {
+  padding: 14px 46px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+
+.button--main {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.button--main:hover {
+  background: var(--color-primary-hover);
+  box-shadow: var(--color-primary-accent) 0px 0px 8px 2px;
+}
+
+.button--outline {
+  background: var(--color-white);
+  color: var(--color-primary);
+}
+
+.button--outline:hover {
+  background: var(--color-btn-hover-bg);
+  box-shadow: var(--color-text-second) 0px 0px 8px 2px;
+}
+/* ======================================== KIRA STYLES ======================================== */
 /* ============= PASSION ============= */
 .passion {
   padding: 80px 40px;
@@ -536,9 +681,17 @@ img {
   .passion__subtitle {
     font-size: 26px;
   }
+
+  .fill {
+    height: 78px;
+  }
 }
 
 @media (max-width: 480px) {
+  .fill {
+    height: 84px;
+  }
+
   .locations {
     padding: 60px 20px;
   }
@@ -570,140 +723,4 @@ img {
   .passion__subtitle {
     font-size: 18px;
   }
-}
-/* ============= LOCATION ============= */
-.locations,
-.passion {
-  background: var(--color-gray);
-}
-
-.locations {
-  padding: 100px 0;
-  background-image: url(./img/dots-locations.png);
-}
-
-.locations__list {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* CARD */
-
-.locations__card {
-  max-width: 330px;
-  flex-basis: calc((100% - 60px) / 3);
-  background: var(--color-white);
-  border-radius: 24px;
-  padding: 40px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-}
-
-.locations__badge {
-  font-size: 12px;
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-weight: 600;
-  display: inline-block;
-  margin-bottom: 15px;
-}
-
-.locations__card--cafe .locations__badge {
-  background: var(--color-cafe);
-}
-
-.locations__card--truck .locations__badge {
-  background: var(--color-food-truck);
-}
-
-.locations__city {
-  font-size: 18px;
-  margin: 0 0 10px;
-}
-
-.locations__desc {
-  color: var(--color-text-second);
-  font-size: 14px;
-  margin-bottom: 20px;
-  padding-bottom: 32px;
-}
-
-.locations__schedule {
-  margin: 10px 0;
-  padding-bottom: 32px;
-}
-
-.locations__schedule dt {
-  font-weight: 600;
-}
-
-.locations__schedule dd {
-  color: var(--color-location-time-text);
-  font-size: 14px;
-  margin: 0 0 10px 0;
-}
-
-.locations__contact a {
-  color: var(--color-text-second);
-  font-size: 14px;
-  margin-top: 20px;
-  list-style: none;
-}
-
-.locations__contact-tel {
-  color: var(--color-text-second);
-  padding-right: 30px;
-  font-weight: 500;
-}
-
-.locations__contact-mail {
-  color: var(--color-text-second);
-  font-weight: 500;
-}
-
-.locations__divider {
-  border: none;
-  border-top: 1px solid var(--color-color-lines);
-  margin: 20px 0;
-  padding-bottom: 32px;
-}
-
-/* BUTTONS */
-.locations__buttons {
-  padding-top: 86px;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 50px;
-}
-
-.button {
-  padding: 14px 46px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  border: none;
-}
-
-.button--main {
-  background: var(--color-primary);
-  color: var(--color-white);
-}
-
-.button--main:hover {
-  background: var(--color-primary-hover);
-  box-shadow: var(--color-primary-accent) 0px 0px 8px 2px;
-}
-
-.button--outline {
-  background: var(--color-white);
-  color: var(--color-primary);
-}
-
-.button--outline:hover {
-  background: var(--color-btn-hover-bg);
-  box-shadow: var(--color-text-second) 0px 0px 8px 2px;
 }
