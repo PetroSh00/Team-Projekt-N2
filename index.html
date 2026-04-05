@@ -1,147 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>IceCream</title>
-    <!-- normalize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
-        rel="stylesheet" />
-    <!-- styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IceCream</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=DM+Sans:wght@400;500&family=Montserrat:wght@400;700&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!--------------------------header--------------------------------><!--------------------------header--------------------------------><!--------------------------header-------------------------------->
-    <header class="header">
-        <a href="#" class="header__logo">
-            <img src="./img/logo.svg" alt="logo" />
-        </a>
-    
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item">
-                    <a href="#" class="header__link">Home</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="header__link">About us</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="header__link">How it's made?</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="header__link">Our products</a>
-                </li>
-                <li class="header__item">
-                    <a href="#" class="header__link">Contact</a>
-                </li>
-            </ul>
-        </nav>
-    
-        <button class="header__btn">Buy now ></button>
-    </header>
-        <!--------------------------hero--------------------------------><!--------------------------hero--------------------------------><!--------------------------hero-------------------------------->
-    <main class="main">
-        <section class="hero">
-            <div class="hero__content">
-                <h2 class="hero__title">
-                    ICE CREAM <br />
-                    MADE WITH <br />
-                    <span class="hero__accent">PASSION</span>
-                </h2>
-    
-                <div class="hero__buttons">
-                    <button class="hero__btn hero__btn--primary">Products</button>
-                    <button class="hero__btn hero__btn--secondary">
-                        How it's made?
-                    </button>
-                </div>
-            </div>
-    
-            <div class="hero__image">
-                <img src="./img/icecream.svg" alt="" />
-            </div>
-    
-            <div class="hero__stats">
-                <p class="hero__stat"><span>16</span> cafes</p>
-                <p class="hero__stat"><span>23</span> food trucks</p>
-            </div>
+
+  <header class="header">
+    <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li><a href="#" class="header__link">Home</a></li>
+        <li><a href="#" class="header__link">About us</a></li>
+        <li><a href="#" class="header__link">How it's made?</a></li>
+        <li><a href="#" class="header__link">Our products</a></li>
+        <li><a href="#" class="header__link">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="header__btn">Buy now ></button>
+  </header>
+
+  <main class="main">
+
+    <section class="hero">
+      <section class="hero__content">
+        <h2 class="hero__title">ICE CREAM <br> MADE WITH <br> <span class="hero__accent">PASSION</span></h2>
+        <div class="hero__buttons">
+          <button class="hero__btn hero__btn--primary">Products</button>
+          <button class="hero__btn hero__btn--secondary">How it's made?</button>
+        </div>
+      </section>
+      <div class="hero__image"><img src="./img/icecream.svg" alt=""></div>
+      <section class="hero__stats">
+        <p class="hero__stat"><span>16</span> cafes</p>
+        <p class="hero__stat"><span>23</span> food trucks</p>
+      </section>
+    </section>
+
+    <section class="hero-bottom">
+      <div class="hero-bottom__milk"><img src="./img/milk.svg" alt=""></div>
+      <p class="hero-bottom__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+      <div class="hero-bottom__girl"><img src="./img/girl.svg" alt=""></div>
+    </section>
+
+    <section class="hm">
+      <div class="container">
+        <section class="hm__top">
+          <span class="hm__pre">TRADITION AND LOVE</span>
+          <h2 class="hm__ttl">HOW IT'S MADE?</h2>
         </section>
-    
-        <section class="hero-bottom">
-            <div class="hero-bottom__milk">
-                <img src="./img/milk.svg" alt="" />
-            </div>
-    
-            <p class="hero-bottom__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et.
-            </p>
-    
-            <div class="hero-bottom__girl">
-                <img src="./img/girl.svg" alt="" />
-            </div>
+        <section class="hm__main">
+          <div class="hm__visual">
+            <img src="./images/center-composition.png" srcset="./images/center-composition@2x.png 2x" alt="Product" class="hm__img">
+          </div>
+          <section class="hm__info">
+            <p class="hm__txt">Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros.</p>
+            <p class="hm__txt">Curabitur lacinia enim at ex blandit, vel pellentesque felis elementum. Mauris rhoncus erat id imperdiet placerat.</p>
+            <a href="#" class="hm__btn">Read more</a>
+          </section>
         </section>
-    </main>
-<section class="products">
-<h3>100% NATURAL</h3>
-<h1>PRODUCTS</h1>
+        <section class="hm__stats">
+          <div class="hm__item">
+            <img src="./images/icon1.png" srcset="./images/icon1@2x.png 2x" alt="" class="hm__icon">
+            <span class="hm__val">721</span>
+            <p class="hm__stat-txt">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+          <div class="hm__item">
+            <img src="./images/icon2.png" srcset="./images/icon2@2x.png 2x" alt="" class="hm__icon">
+            <span class="hm__val">16kg</span>
+            <p class="hm__stat-txt">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+          <div class="hm__item">
+            <img src="./images/icon3.png" srcset="./images/icon3@2x.png 2x" alt="" class="hm__icon">
+            <span class="hm__val">84</span>
+            <p class="hm__stat-txt">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+        </section>
+      </div>
+    </section>
 
-<div class="container">
+    <section class="testimonial">
+      <img class="gallery" src="img/homepic.png" alt="">
+      <img src="img/testimonials1 1.png" class="profile-img" alt="">
+      <div class="testimonial-box">
+        <div class="quote-icon"></div>
+        <p class="testimonial-text">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.</p>
+        <div class="line"></div>
+      </div>
+      <div class="icons">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <h4>Emily, Los Angeles</h4>
+    </section>
 
-    <ul class="icecream-card">
-        <li class="ice-card"><img class="products__img" src="images/ice-cream.png"
-                srcset="images/ice-cream.png 1x, images/ice-cream@2x.png 2x" alt="Milkshakes"></li>
-        <li class="ice-card">
-            <h2>ICE CREAM</h2>
-        </li>
-        <li class="ice-card">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-        </li>
-        <li class="ice-card">
-            <div class="Products__button">→</div>
-        </li>
-    </ul>
+    <section class="fill"></section>
 
-    <ul class="icecoffee-card">
-        <li class="ice-card"><img class="products__img" src="images/ice-coffee.png"
-                srcset="images/ice-coffee.png 1x, images/ice-coffee@2x.png 2x" alt="Milkshakes"></li>
-        <li class="ice-card">
-            <h2>ICE COFFEE</h2>
-        </li>
-        <li class="ice-card">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-        </li>
-        <li class="ice-card">
-            <div class="Products__button">→</div>
-        </li>
-    </ul>
+    <section class="locations">
+      <div class="container">
+        <ul class="locations__list">
+          <li class="locations__card locations__card--cafe">
+            <span class="locations__badge">CAFE</span>
+            <h3 class="locations__city">Chicago</h3>
+            <p class="locations__desc">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+            <hr class="locations__divider">
+            <dl class="locations__schedule">
+              <dt>Monday - Friday</dt><dd>06:00 AM - 10:00 PM</dd>
+              <dt>Saturday - Sunday</dt><dd>08:00 AM - 04:00 PM</dd>
+            </dl>
+            <hr class="locations__divider">
+            <address class="locations__contact">
+              <a class="locations__contact-tel" href="tel:+610383766284">+61(0) 383 766 284</a>
+              <a class="locations__contact-mail" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </address>
+          </li>
+          <li class="locations__card locations__card--truck">
+            <span class="locations__badge">FOOD TRUCK</span>
+            <h3 class="locations__city">Los Angeles</h3>
+            <p class="locations__desc">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+            <hr class="locations__divider">
+            <dl class="locations__schedule">
+              <dt>Monday - Friday</dt><dd>06:00 AM - 10:00 PM</dd>
+              <dt>Saturday - Sunday</dt><dd>08:00 AM - 04:00 PM</dd>
+            </dl>
+            <hr class="locations__divider">
+            <address class="locations__contact">
+              <a class="locations__contact-tel" href="tel:+610383766284">+61(0) 383 766 284</a>
+              <a class="locations__contact-mail" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </address>
+          </li>
+          <li class="locations__card locations__card--cafe">
+            <span class="locations__badge">CAFE</span>
+            <h3 class="locations__city">New York</h3>
+            <p class="locations__desc">Fusce ut velit laoreet, tempus arcu molestie vulputate</p>
+            <hr class="locations__divider">
+            <dl class="locations__schedule">
+              <dt>Monday - Friday</dt><dd>06:00 AM - 10:00 PM</dd>
+              <dt>Saturday - Sunday</dt><dd>08:00 AM - 04:00 PM</dd>
+            </dl>
+            <hr class="locations__divider">
+            <address class="locations__contact">
+              <a class="locations__contact-tel" href="tel:+610383766284">+61(0) 383 766 284</a>
+              <a class="locations__contact-mail" href="mailto:noreply@envato.com">noreply@envato.com</a>
+            </address>
+          </li>
+        </ul>
+        <div class="locations__buttons">
+          <button class="button button--main">Our Locations ></button>
+          <button class="button button--outline">Franchise ></button>
+        </div>
+      </div>
+    </section>
 
-    <ul class="milkshake-card">
-        <li class="ice-card"><img class="products__img" src="images/milkshake.png"
-                srcset="images/milkshake.png 1x, images/milkshake@2x.png 2x" alt="Milkshakes"></li>
-        <li class="ice-card">
-            <h2>MILKSHAKES</h2>
-        </li>
-        <li class="ice-card">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            </p>
-        </li>
-        <li class="ice-card">
-            <div class="Products__button">→</div>
-        </li>
-    </ul>
+  </main>
 
-</div>
-
-    
-</section>
-
+  <footer class="passion">
+    <div class="container">
+      <section class="passion__top">
+        <h2 class="passion__title">
+          <span class="passion__subtitle">HOMEMADE ICE CREAM MADE</span>
+          WITH PASSION
+        </h2>
+        <div class="passion__right">
+          <ul class="passion__social">
+            <li><a href="https://github.com/" class="passion__social-link"><svg class="passion__social-icon"><use href="./img/symbol-defs.svg#icon-github"></use></svg></a></li>
+            <li><a href="https://web.telegram.org" class="passion__social-link"><svg class="passion__social-icon"><use href="./img/symbol-defs.svg#icon-telegram"></use></svg></a></li>
+            <li><a href="https://www.facebook.com/" class="passion__social-link"><svg class="passion__social-icon"><use href="./img/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+          </ul>
+          <address class="passion__contact">Feel free to contact <span class="passion__phone">+61 (0) 383 766 284</span></address>
+        </div>
+      </section>
+      <div class="passion__copyright"><p>© 2019 - IceCream. All Rights Reserved.</p></div>
+    </div>
+  </footer>
 
 </body>
 </html>
