@@ -24,42 +24,75 @@
 </head>
 <body>
 
-  <header class="header">
-    <a href="#" class="header__logo"><img src="./img/logo.svg" alt="logo"></a>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li><a href="#" class="header__link">Home</a></li>
-        <li><a href="#" class="header__link">About us</a></li>
-        <li><a href="#" class="header__link">How it's made?</a></li>
-        <li><a href="#" class="header__link">Our products</a></li>
-        <li><a href="#" class="header__link">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="header__btn">Buy now ></button>
-  </header>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="./img/logo.svg" alt="logo" />
+      </a>
 
-  <main class="main">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#" class="header__link">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">About us</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">How it's made?</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Our products</a>
+          </li>
+          <li class="header__item">
+            <a href="#" class="header__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
 
-    <section class="hero">
-      <section class="hero__content">
-        <h2 class="hero__title">ICE CREAM <br> MADE WITH <br> <span class="hero__accent">PASSION</span></h2>
-        <div class="hero__buttons">
-          <button class="hero__btn hero__btn--primary">Products</button>
-          <button class="hero__btn hero__btn--secondary">How it's made?</button>
+      <button class="header__btn">Buy now ></button>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title">
+            ICE CREAM <br />
+            MADE WITH <br />
+            <span class="hero__accent">PASSION</span>
+          </h2>
+
+          <div class="hero__buttons">
+            <button class="hero__btn hero__btn--primary">Products</button>
+            <button class="hero__btn hero__btn--secondary">
+              How it's made?
+            </button>
+          </div>
+        </div>
+
+        <div class="hero__image">
+          <img src="./img/icecream.svg" alt="" />
+        </div>
+
+        <div class="hero__stats">
+          <p class="hero__stat"><span>16</span> cafes</p>
+          <p class="hero__stat"><span>23</span> food trucks</p>
         </div>
       </section>
-      <div class="hero__image"><img src="./img/icecream.svg" alt=""></div>
-      <section class="hero__stats">
-        <p class="hero__stat"><span>16</span> cafes</p>
-        <p class="hero__stat"><span>23</span> food trucks</p>
-      </section>
-    </section>
 
-    <section class="hero-bottom">
-      <div class="hero-bottom__milk"><img src="./img/milk.svg" alt=""></div>
-      <p class="hero-bottom__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-      <div class="hero-bottom__girl"><img src="./img/girl.svg" alt=""></div>
-    </section>
+      <section class="hero-bottom">
+        <div class="hero-bottom__milk">
+          <img src="./img/milk.svg" alt="" />
+        </div>
+
+        <p class="hero-bottom__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et.
+        </p>
+
+        <div class="hero-bottom__girl">
+          <img src="./img/girl.svg" alt="" />
+        </div>
+      </section>
 
 <h3>100% NATURAL</h3>
 <h1>PRODUCTS</h1>
@@ -68,7 +101,7 @@
 
   <ul class="icecream-card">
     <li class="ice-card"><img class="products__img" src="./img/ice-cream.png"
-        srcset="./img/ice-cream.png 1x, ./img/ice-cream@2x.png 2x" alt="Milkshakes"></li>
+        srcset="images/ice-cream.png 1x, images/ice-cream@2x.png 2x" alt="Milkshakes"></li>
     <li class="ice-card">
       <h2>ICE CREAM</h2>
     </li>
@@ -82,7 +115,7 @@
 
   <ul class="icecoffee-card">
     <li class="ice-card"><img class="products__img" src="./img/ice-coffee.png"
-        srcset="./img/ice-coffee.png 1x, ./img/ice-coffee@2x.png 2x" alt="Milkshakes"></li>
+        srcset="images/ice-coffee.png 1x, images/ice-coffee@2x.png 2x" alt="Milkshakes"></li>
     <li class="ice-card">
       <h2>ICE COFFEE</h2>
     </li>
@@ -96,7 +129,7 @@
 
   <ul class="milkshake-card">
     <li class="ice-card"><img class="products__img" src="./img/milkshake.png"
-        srcset="./img/milkshake.png 1x, ./imggit add . && git commit -m "update" && git push/milkshake@2x.png 2x" alt="Milkshakes"></li>
+        srcset="images/milkshake.png 1x, images/milkshake@2x.png 2x" alt="Milkshakes"></li>
     <li class="ice-card">
       <h2>MILKSHAKES</h2>
     </li>
@@ -129,17 +162,17 @@
         </section>
         <section class="hm__stats">
           <div class="hm__item">
-            <img src="./images/icon1.png" srcset="./images/icon1@2x.png 2x" alt="" class="hm__icon">
+            <img src="./img/icon1.png" srcset="./img/icon1@2x.png 2x" alt="" class="hm__icon">
             <span class="hm__val">721</span>
             <p class="hm__stat-txt">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
           </div>
           <div class="hm__item">
-            <img src="./images/icon2.png" srcset="./images/icon2@2x.png 2x" alt="" class="hm__icon">
+            <img src="./img/icon2.png" srcset="./img/icon2@2x.png 2x" alt="" class="hm__icon">
             <span class="hm__val">16kg</span>
             <p class="hm__stat-txt">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
           </div>
           <div class="hm__item">
-            <img src="./images/icon3.png" srcset="./images/icon3@2x.png 2x" alt="" class="hm__icon">
+            <img src="./img/icon3.png" srcset="./img/icon3@2x.png 2x" alt="" class="hm__icon">
             <span class="hm__val">84</span>
             <p class="hm__stat-txt">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
           </div>
