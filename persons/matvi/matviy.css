@@ -27,7 +27,7 @@
 }
 
 .hm {
-  background: var(--color-gray);
+  background: var(--color-primary);
   padding: 80px 0;
   font-family: 'Montserrat', sans-serif;
   width: 100%;
@@ -53,7 +53,7 @@
 }
 
 .hm__ttl {
-  color: var(--color-primary);
+  color: var(--color-white);
   font-family: 'Titan One', cursive;
   font-size: clamp(32px, 5vw, 58px);
   text-transform: uppercase;
@@ -83,7 +83,7 @@
 }
 
 .hm__txt {
-  color: var(--color-text-primary);
+  color: var(--color-white);
   font-size: 14px;
   line-height: 1.8;
   margin-bottom: 25px;
@@ -125,14 +125,14 @@
   display: block;
   font-family: 'Titan One', cursive;
   font-size: 48px;
-  color: var(--color-primary);
+  color: var(--color-white);
   margin-bottom: 10px;
 }
 
 .hm__stat-txt {
   font-size: 14px;
   line-height: 1.5;
-  color: var(--color-text-primary);
+  color: var(--color-white);
   font-weight: 700;
 }
 
